@@ -4,6 +4,5 @@ This repository contains the code for the embeddings associated with the items i
 
 ./starspace train -trainFile ./data/Online_Retail_pp.txt -model pagespace -label 'item_code_' -trainMode 1
 
-
-The generated embedings are in pagespace.tsv. A sample of the embeddings were visualized with tSNE (sklearn). This implementation is in Embedding_Visualization.ipynb
+This is per guidelines provided in https://github.com/facebookresearch/StarSpace. Training was fairly quick. The generated embedings are in pagespace.tsv. A sample of the embeddings were visualized with tSNE (sklearn). This implementation is in Embedding_Visualization.ipynb
 
